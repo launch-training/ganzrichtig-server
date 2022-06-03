@@ -16,6 +16,7 @@ public class StableController {
 
     @GetMapping("/stables")
     public Iterable<Stable> readAllStables() {
+        // Aenderung
         return stableRepository.findAll();
     }
 
